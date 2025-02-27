@@ -37,3 +37,9 @@ variable "ami_id" {
   description = "AMI ID for the EC2 instances"
   type        = string
 }
+
+variable "allowed_ssh_ip" {
+  description = "IP range allowed to SSH"
+  type        = string
+  default     = "YOUR_IP/32"
+}
