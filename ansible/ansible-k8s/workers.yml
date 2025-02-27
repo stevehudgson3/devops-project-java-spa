@@ -1,0 +1,12 @@
+- name: Join Worker Nodes to Cluster
+  hosts: workers
+  become: yes
+  tasks:
+    - name: Copy Join Command to Workers
+      copy:
+        src: ./join-command.sh
+        dest: /tmp/join-command.sh
+        mode: 0755
+
+    - name: Run Join Command
+      shell: sh /tmp/join-command.sh
