@@ -1,6 +1,6 @@
 # Basic Java SPA
 
-Brief description of your project, highlighting its purpose and functionality.
+This project is to help build understanding of the fundamentals of DevOps pipelines and workflow
 
 ## Table of Contents
 
@@ -18,24 +18,8 @@ Brief description of your project, highlighting its purpose and functionality.
 
 ## Introduction
 
-Provide a more detailed overview of your project, explaining what it does and its intended use case.
+We are utilizing a java SPA application that talks to our mariadb backend and deploy it to aws with ec2 running kubernetes ontop of it
 
-## Features
-
-List the key features of your project:
-
-- Feature 1
-- Feature 2
-- Feature 3
-
-## Requirements
-
-Outline the prerequisites needed to run your project:
-
-- **Java**: Version 8 or higher
-- **Maven**: For build automation
-- **Terraform**: For infrastructure management
-- **Docker**: If containerization is used
 
 ## Installation
 
@@ -44,5 +28,5 @@ Step-by-step instructions to set up the project locally:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/stevehudgson3/devops-project-java-spa
+   cd https://github.com/stevehudgson3/devops-project-java-spai
